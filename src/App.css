@@ -34,3 +34,42 @@
     position: relative;
     margin: auto;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 2px solid rgb(215, 127, 12);
+}
+
+.counter:hover {
+    background-color: rgb(246, 243, 197);
+}
+
+.number {
+    font-size: 7rem;
+}
+
+.button {
+    font-size: 2rem;
+    padding: 0.2rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    background-color: rgb(215, 127, 12);
+    background: linear-gradient(90deg,
+            rgba(215, 127, 12, 1) 0%,
+            rgba(253, 220, 29, 1) 100%);
+}
+
+.total {
+    font-size: 1rem;
+    margin-left: -1.5rem;
+}
